@@ -1,0 +1,21 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #747704;
+  font-weight: 400;
+}
+
+.text-light{
+  font-weight: 300;
+}
+
+.text-muted{
+  color: #BCBBBB;
+}
+
+.title-text{
+  font-size: 60px;
+}
+
+.title-img{
+  margin-top: 20px;
+}

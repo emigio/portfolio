@@ -6,12 +6,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400" rel="stylesheet"> 
       <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link ref="stylesheet" href="css/responsive_style.css">
+      <link rel="stylesheet" href="css/responsive_style.css">
       <title>Emi Tsukda</title>
     </head>
+    
     <body>
       <div class="container">
-        <header class="row">
+        <header>
           <div id="logo" class="col-md-6">
             <img src="http://placehold.it/100x100" class="img-responsive title-img" alt="logo">
           </div>
@@ -20,36 +21,38 @@
             <h3>Full Stack Developer</h3>
           </section>
         </header>
-        <section id="featurepic" class="row">
-          <div id="pic1" class="col-md-12">
-            <img src="http://placekitten.com/g/1140/350" class="img-responsive" alt="featured work">
-          </div>
-        </section>
-        <section id="featuretext" class="row">
-          <div class="col-md-12">
-            <h2 class="text-muted">Featured Works</h2>
-          </div>
-        </section>
-        <section id="projects1" class="row text-center">
-          <div id="favoriteapp" class="col-md-6">
-            <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#first" alt="favorite app">
-            <h3>My Favorite App</h3>
-          </div>
-          <div id="secondapp" class="col-md-6">
-            <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#second" alt="my second app">
-            <h3>My Second App</h3>
-          </div>
-        </section>
-        <section id="projects2" class="row text-center">
-          <div id="thirdapp" class="col-md-6">
-            <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#third" alt="my third app">
-            <h3>My Third App</h3>
-          </div>
-          <div id="fourthapp" class="col-md-6">
-            <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#fourth" alt="my fourth app">
-            <h3>My Fourth App</h3>
-          </div>
-        </section>
+        <main class="projects" class="row">
+          <section id="featurepic">
+            <article id="pic1" class="col-md-12">
+              <img src="http://placekitten.com/g/1140/350" class="img-responsive" alt="featured work">
+            </article>
+          </section>
+          <section id="featuretext">
+            <article class="col-md-12">
+              <h2 class="text-muted">Featured Works</h2>
+            </article>
+          </section>
+          <section id="projects1" class="text-center">
+            <article id="favoriteapp" class="col-md-6">
+              <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#first" alt="favorite app">
+              <h3>My Favorite App</h3>
+            </article>
+            <article id="secondapp" class="col-md-6">
+              <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#second" alt="my second app">
+              <h3>My Second App</h3>
+            </article>>
+          </section>
+          <section id="projects2" class="text-center">
+            <article id="thirdapp" class="col-md-6">
+              <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#third" alt="my third app">
+              <h3>My Third App</h3>
+            </article>
+            <article id="fourthapp" class="col-md-6">
+              <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#fourth" alt="my fourth app">
+              <h3>My Fourth App</h3>
+            </article>
+          </section>
+        </main>
       </div>
       
       <div class="modal fade" id="first" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden='true'>
@@ -59,7 +62,7 @@
               <h4 class="modal-title" id="myModalLabel1">My Favorite App Page</h4>
             </div>
             <div class="modal-body">
-              <img class="img-responsive" src="http://placekitten.com/g/555/300">
+              <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="project pic 1">
               <p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
               <a href="https://github.com/emigio">Link to projects</a>
             </div>
@@ -77,7 +80,7 @@
               <h4 class="modal-title" id="myModalLabel2">My Second App Page</h4>
             </div>
             <div class="modal-body">
-              <img class="img-responsive" src="http://placekitten.com/g/555/300">
+              <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="project pic 2">
               <p>This was my second project in this class. I learned a lot about HTML and CSS.</p>
               <a href="https://github.com/emigio">Link to projects</a>
             </div>
@@ -95,7 +98,7 @@
               <h4 class="modal-title" id="myModalLabel3">My Third App Page</h4>
             </div>
             <div class="modal-body">
-              <img class="img-responsive" src="http://placekitten.com/g/555/300">
+              <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="project pic 3">
               <p>This was my third project in this class. I learned a lot about HTML and CSS.</p>
               <a href="https://github.com/emigio">Link to projects</a>
             </div>
@@ -113,7 +116,7 @@
               <h4 class="modal-title" id="myModalLabel4">My Fourth App Page</h4>
             </div>
             <div class="modal-body">
-              <img class="img-responsive" src="http://placekitten.com/g/555/300">
+              <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="project pic 4">
               <p>This was my fourth project in this class. I learned a lot about HTML and CSS.</p>
               <a href="https://github.com/emigio">Link to projects</a>
             </div>
